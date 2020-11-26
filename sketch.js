@@ -11,9 +11,9 @@ var Twall1,Twall2
 var mango1,mango2,mango3,mango4,mango5,mango6,mango7,mango8,mango9,mango10,mango11;
 var tree;
 
-function preload()
-{
-
+function preload(){
+	treeimg=loadImage("tree.png");
+	boyimg=loadImage("boy.png");
 }
 
 function setup() {
